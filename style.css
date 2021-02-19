@@ -1,19 +1,43 @@
 body {
-    background-color: lightblue;
     margin: 0;
     padding: 0;
   }
-  
-  h1 {
-    color: white;
-    text-align: center;
-  }
-  
-  p {
-    font-family: verdana;
-    font-size: 20px;
+  div {
+    box-sizing: border-box;
+}
+  nav,footer,main {
+    width: 100%;
   }
   nav {
-    width: 100%;
+      height: 50px;
+      background-color: aqua;
+      text-align: center;
+      font-size: x-large;
+      letter-spacing: 5px;
+      
+  }
 
+  footer {
+    height: 100px;
+    background-color: blueviolet;
+  }
+  main {
+    height: calc(100%-150px);
+    background-color: chocolate;
+  }
+  #app {
+    width: 70%;
+  }
+  .app-chooser {
+    width: 30%;
+    float: left;
+  }
+  #app, .app-chooser {
+      height: 100%;
+      display: inline-block;
+      border: 1px black;
+     
+  }
+ .nodisplay {
+      display: none;
   }
