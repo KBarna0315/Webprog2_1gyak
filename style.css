@@ -31,13 +31,25 @@ body {
   .app-chooser {
     width: 30%;
     float: left;
+    text-align: center;
   }
   #app, .app-chooser {
       height: 100%;
       display: inline-block;
-      border: 1px black;
+      border: 1px solid black;
      
   }
  .nodisplay {
       display: none;
+  }
+  button {
+    width: 60%;
+    margin-top: 10px;
+    height: 3em;
+    border-radius: 10px;
+    width: 1px;
+    background-color: transparent;
+  }
+  button:hover {
+      background-color: tomato;
   }
